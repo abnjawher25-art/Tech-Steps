@@ -1,0 +1,78 @@
+body {
+  width: 98%;
+  background: #b1a5a8;
+  color: rgb(173, 4, 145);
+}
+
+header {
+  width: 96%;
+  margin: 10px auto;
+  border: 2px solid #9c8a9c;
+  font-size: 66px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: -2px 2px 2px #441545;
+  text-shadow: -2px 4px 2px #ccb9cc;
+}
+
+.form1{
+  width: 94%;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 20px;
+  border: 1px dashed #441545;
+  border-radius: 5px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Title {
+  width: 100%;
+  display: flex;
+  direction: ltr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-width: 1px 1px 1px 8px;
+  border-style: solid;
+  border-color: black black black rgb(197, 110, 10);
+  margin-top: 5px;
+  border-radius: 2px;
+}
+
+
+.data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: self-start;
+}
+
+.data p {
+  width: 50%;
+}
+
+.Symble {
+  width: 50%;
+  direction: ltr;
+  background-color: #132431;
+  color: #ffffff;
+  margin: 5px auto;
+  padding: 10px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #441545 #441545 #441545 #f5f3f5;
+}
+
+.Horizontal-Line {
+  width: 100%;
+  height: 2px;
+  margin: 10px auto;
+  background-color: #441545;
+}

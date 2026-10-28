@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="Img/icon.png">
+  <title>Ebrahim | Forms</title>
+  <link rel="stylesheet" href="Css/Forms/Style.css">
+</head>
+<body>
+  <header>الحقول مع خواصها</header>
+  <div class="form1">
+    <div class="Title">
+      <h2>&lt;form&gt;</h2>
+    </div>
+    <div class="data">
+      <p>الحاوية الأساسية لجميع عناصر الإدخال داخل النموذج.</p>
+      <div class="Symble">
+        &lt;form&gt;المحتوى&lt;/form&gt;
+      </div>
+    </div>  
+  </div>
+  <div class="form1">
+    <div class="Title">
+      <h2>&lt;label&gt;</h2>
+    </div>
+    <div class="data">
+      <p>يُستخدم لوضع عنوان أو وصف بجانب حقل الإدخال، وربطه به لزيادة سهولة الاستخدام وإمكانية الوصول (Accessibility).</p>
+      <div class="Symble">
+        &lt;label&gt;المحتوى&lt;/label&gt;
+      </div>
+    </div>  
+  </div>
+    <div class="form1">
+    <div class="Title">
+      <h2>&lt;textarea&gt;</h2>
+    </div>
+    <div class="data">
+      <p>يُستخدم لإنشاء حقل إدخال نصي كبير يسمح بكتابة عدة أسطر (مثل رسائل الاتصال أو التعليقات).</p>
+      <div class="Symble">
+        &lt;textarea&gt;&lt;/textarea&gt;
+      </div>
+    </div>  
+  </div>
+  </div>
+    <div class="form1">
+    <div class="Title">
+      <h2>&lt;button&gt;</h2>
+    </div>
+    <div class="data">
+      <p>لإنشاء زر تفاعلي داخل النموذج أو الصفحة.</p>
+      <div class="Symble">
+        &lt;button&gt;المحتوى&lt;/button&gt;
+      </div>
+    </div> 
+    <div class="Horizontal-Line"></div>
+    <div class="data">
+      <p>type: يحدد وظيفة الزر (القيم: submit للإرسال، reset لتفريغ الحقول، button لزر عادي ينفذ أكواد جافاسكريبت).</p>
+      <div class="Symble">
+        &lt;button type="submit">إرسال البيانات&lt;/button&gt;
+      </div>
+    </div> 
+  </div>
+  <div class="form1">
+    <div class="Title">
+      <h2>&lt;select&gt; , &lt;option&gt;</h2>
+    </div>
+    <div class="data">
+      <p>لإنشاء قائمة منسدلة يختار منها المستخدم     .</p>
+      <div class="Symble">
+        <code>
+          &lt;select&gt;
+          <br>
+          &lt;option&gt;المحتوى&lt;/option&gt;
+          <br>
+          &lt;option&gt;المحتوى&lt;/option&gt;
+          <br>
+          &lt;/select&gt;
+        </code>
+        
+      </div>
+    </div>  
+  </div>
+  <div class="form1">
+    <div class="Title">
+      <h2>&lt;input&gt;</h2>
+    </div>
+    <div class="data">
+      <p> type: يحدد  نوع الحقل  (القيم: text للنصوص، password لكلمات المرور، email للبريد، number للأرقام، checkbox لمربعات الاختيار، radio لدوائر الاختيار الفردي، submit لزر الإرسال، file لرفع الملفات) . </p>
+      <div class="Symble">
+        &lt;input type="email"&gt;
+      </div>
+    </div> 
+    <div class="Horizontal-Line"></div>
+    <div class="data">
+      <p>name: اسم حقل الإدخال لتمييز البيانات المرسلة للخادم (القيمة: نص برمجي مثل username).</p>
+      <div class="Symble">
+        &lt;input type="text" name="username"&gt;
+      </div>
+    </div> 
+    <div class="Horizontal-Line"></div>
+    <div class="data">
+      <p>value: القيمة الافتراضية للحقل (القيمة: نص).</p>
+      <div class="Symble">
+        &lt;type="text" name="country" value="Yemen"&gt;
+      </div>
+    </div> 
+    <div class="Horizontal-Line"></div>
+    <div class="data">
+      <p>placeholder: نص باهت يظهر داخل الحقل كإرشاد للمستخدم (القيمة: نص توضيحي مثل أدخل اسم المستخدم).</p>
+      <div class="Symble">
+        &lt;input type="text" placeholder="أدخل اسم المستخدم"&gt;
+      </div>
+    </div> 
+    <div class="Horizontal-Line"></div>
+    <div class="data">
+      <p>required: خاصية منطقية تجعل الحقل إجبارياً قبل الإرسال (بدون قيمة أو required)</p>
+      <div class="Symble">
+        &lt;input type="password" name="password" required&gt;
+      </div>
+    </div> 
+    <div class="Horizontal-Line"></div>
+    <div class="data">
+      <p>readonly / disabled: لجعل الحقل للقراءة فقط أو معطلاً.</p>
+      <div class="Symble">
+        &lt;input type="text" value="هذا النص للقراءة فقط" readonly&gt;
+      </div>
+  </div>
+  
+</body>
+</html>
